@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package paqueteuno;
+package paquete001;
 
 /**
  *
@@ -15,8 +15,8 @@ public class Ejecutor {
         FacturaTelefono ft = new FacturaTelefono();
         // Valores de entrada
         String numeroTelefono = "098321321";
-        double minutos = 230;
-        double valorMinuto = 0.25;
+        double minutos = 100;
+        double valorMinuto = 1.10;
         // uso de los métodos establecer para darle valores a los 
         // atributos del objeto.
         ft.establecerNumeroTelefono(numeroTelefono);
@@ -34,8 +34,8 @@ public class Ejecutor {
         
         // Se hace uso de los métodos obtener para presentar en pantalla lo 
         // requerido
-        System.out.printf("Factura de Teléfono\n\nNúmero de teléfono: %s\n"
-                + "Minutos mensuales: %.2f\nValor por minuto: %.2f\n"
+        System.out.printf("Factura de Teléfono\n\n\tNúmero de teléfono: %s\n"
+                + "Minutos mensuales: %.2f\n\tValor por minuto: %.2f\n"
                 + "Valor a cancelar: %.2f\n", ft.obtenerNumeroTelefono(),
                 ft.obtenerMinutosMes(), ft.obtenerValorMinuto(),
                 ft.obtenerValorFactura());
