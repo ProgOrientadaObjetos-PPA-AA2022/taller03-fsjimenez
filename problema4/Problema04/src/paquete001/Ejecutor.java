@@ -26,7 +26,7 @@ public class Ejecutor {
         cel1.establecerMAC("F0:E1:D2:C3:B4:A5");
         cel1.establecerIMEI(1234567823);
         
-        cel2.establecerSistema("Aplle");
+        cel2.establecerSistema("Apple");
         cel2.establecertamañoPantalla(15.6);
         cel2.establecerCostoInicial(800);
         cel2.establecerPorcentajeIVA(10);
